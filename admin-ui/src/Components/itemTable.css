@@ -1,0 +1,46 @@
+.MyList {
+  text-align: left;
+  background-color: rgb(250, 250, 246);
+  background-color: turquoise;
+}
+
+table {
+  border-bottom-color: white;
+  height: 100%;
+  width: 100%;
+}
+th,
+td {
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: rgb(253, 247, 247);
+}
+
+.actionButtonsColumn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checked {
+  background-color: lightgray;
+}
+.unchecked {
+  background-color: rgb(246, 248, 248);
+}
+.edit,
+.MuiFab-root {
+  border-radius: 0.5rem;
+}
+.trash {
+  border-radius: 0.5rem;
+}
+
+.edit:hover {
+  background-color: turquoise;
+}
+.trash:hover {
+  background-color: turquoise;
+}
